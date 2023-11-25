@@ -39,8 +39,6 @@ $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $modInstallPath = $scriptPath
 $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 
-# Ajouter une ligne pour supprimer le dossier Bepinex
-Remove-Item -Path $scriptPath\BepInEx -Recurse -Force
 
 # Télécharger et installer GameMaster
 

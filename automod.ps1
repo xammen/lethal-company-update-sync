@@ -54,16 +54,16 @@ Download-Mod "2018" "LC_API" $modInstallPath
 
 Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
 
-Download-Mod "5Bit" "FPSSpectate" $modInstallPath
+#Download-Mod "5Bit" "FPSSpectate" $modInstallPath
 
-Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
+#Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
 
-Download-Mod "oknorton" "LethalCompanyBetterScaling" "BepInEx\plugins"
+#Download-Mod "oknorton" "LethalCompanyBetterScaling" "BepInEx\plugins"
 
 Download-Mod "Pooble" "LCBetterSaves" "BepInEx\plugins"
 
-Download-Mod "tinyhoot" "ShipLoot" "BepInEx"
+#Download-Mod "tinyhoot" "ShipLoot" "BepInEx"
 
-Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
+#Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
 
 Download-Mod "FlipMods" "ReservedItemSlotCore" $modInstallPath

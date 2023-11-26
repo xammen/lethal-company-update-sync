@@ -32,13 +32,17 @@ function Download-Mod($namespace, $modName, $destination) {
     $downloadUrl = $modInfo.latest.download_url
     $stream = Request-Stream $downloadUrl
     Expand-Stream $stream $destination
-    
+
     # Ajouter le nom du mod à la liste des mods installés
     $installedMods += $modInfo.name
-    
+
     Write-Host "Mod '$($modInfo.name)' version '$($modInfo.latest.version_number)' has been downloaded and installed."
-    Write-Host "Liste des mods installés: $($installedMods -join ', ')"
+
+    # Afficher la liste des mods installés
+    Write-Host "Liste des mods installés:"
+    $installedMods | Format-Table -Property @{ Name=""; Expression={ "- $_" } }
 }
+
 
 
 # Définir le chemin du répertoire d'installation des mods

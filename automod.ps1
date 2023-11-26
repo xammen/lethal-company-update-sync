@@ -1,4 +1,5 @@
 $installedMods = @()
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
  # Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
 

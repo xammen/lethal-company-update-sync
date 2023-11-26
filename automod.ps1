@@ -52,6 +52,7 @@ function Show-LoadingScreen {
 }
 
 # Définir une fonction pour récupérer les informations d'un mod et télécharger la dernière version
+# Définir une fonction pour télécharger et installer un mod
 function Download-Mod($namespace, $modName, $destination) {
     $modInfoUrl = "https://thunderstore.io/api/experimental/package/$namespace/$modName/"
     $modInfo = Invoke-RestMethod -Uri $modInfoUrl
@@ -60,8 +61,9 @@ function Download-Mod($namespace, $modName, $destination) {
     # Afficher l'interface de chargement
     Show-LoadingScreen
 
-    # Code de téléchargement du mod
-    # ...
+    # Télécharger le mod en utilisant curl
+    $outputFile = Join-Path $destination "$modName.zip"
+    & curl -o $outputFile $downloadUrl
 
     # Ajouter le nom du mod à la liste des mods installés
     $installedMods += $modInfo.name

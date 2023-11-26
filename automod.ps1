@@ -31,7 +31,6 @@ function Download-Mod($namespace, $modName, $destination) {
     Write-Host "Mod '$($modInfo.name)' version '$($modInfo.latest.version_number)' has been downloaded and installed."
 }
 
-function Remove-Item -Path (Join-Path $scriptPath "BepInEx\plugins") -Recurse -Force
 
 # Définir le chemin du répertoire d'installation des mods
 # Définir le chemin du répertoire d'installation des mods en utilisant le répertoire courant
@@ -39,7 +38,7 @@ $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $modInstallPath = $scriptPath
 $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 
-
+Remove-Item -Path (Join-Path $scriptPath "BepInEx\plugins") -Recurse -Force
 # Télécharger et installer GameMaster
 
 # Télécharger et installer More Suits (Assurez-vous de remplacer le nom du namespace et du mod par les bons)

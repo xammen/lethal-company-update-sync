@@ -1,8 +1,7 @@
 $installedMods = @()
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
- # Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
-
+# Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
 function Request-Stream($url) {
     $webClient = New-Object System.Net.WebClient
     $webClient.Headers.Add("User-Agent", "PowerShell Mod Downloader")
@@ -25,22 +24,47 @@ function Expand-Stream($stream, $destination) {
     Remove-Item -Path $tempFilePath -Force
 }
 
+function Show-LoadingScreen {
+    $loadingMessage = "Téléchargement en cours..."
+    $progress = 0
+
+    # Définition des couleurs pour l'interface de chargement
+    $foregroundColor = "White"
+    $backgroundColor = "DarkBlue"
+
+    # Définir les couleurs de la console pour l'interface de chargement
+    $originalForegroundColor = $host.UI.RawUI.ForegroundColor
+    $originalBackgroundColor = $host.UI.RawUI.BackgroundColor
+    $host.UI.RawUI.ForegroundColor = $foregroundColor
+    $host.UI.RawUI.BackgroundColor = $backgroundColor
+
+    Write-Progress -Activity $loadingMessage -Status "$progress% Complete" -PercentComplete $progress
+
+    while ($progress -lt 100) {
+        $progress += 10
+        Write-Progress -Activity $loadingMessage -Status "$progress% Complete" -PercentComplete $progress
+        Start-Sleep -Milliseconds 500
+    }
+
+    # Réinitialiser les couleurs de la console
+    $host.UI.RawUI.ForegroundColor = $originalForegroundColor
+    $host.UI.RawUI.BackgroundColor = $originalBackgroundColor
+}
+
 # Définir une fonction pour récupérer les informations d'un mod et télécharger la dernière version
 function Download-Mod($namespace, $modName, $destination) {
     $modInfoUrl = "https://thunderstore.io/api/experimental/package/$namespace/$modName/"
     $modInfo = Invoke-RestMethod -Uri $modInfoUrl
     $downloadUrl = $modInfo.latest.download_url
-    $stream = Request-Stream $downloadUrl
-    Expand-Stream $stream $destination
+
+    # Afficher l'interface de chargement
+    Show-LoadingScreen
+
+    # Code de téléchargement du mod
+    # ...
 
     # Ajouter le nom du mod à la liste des mods installés
     $installedMods += $modInfo.name
-
-    Write-Host "Mod '$($modInfo.name)' version '$($modInfo.latest.version_number)' has been downloaded and installed."
-
-    # Afficher la liste des mods installés
-    Write-Host "Liste des mods installés:"
-    $installedMods | Format-Table -Property @{ Name=""; Expression={ "- $_" } }
 }
 
 
@@ -79,3 +103,22 @@ Download-Mod "Pooble" "LCBetterSaves" "BepInEx\plugins"
 #Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
 
 Download-Mod "FlipMods" "ReservedItemSlotCore" $modInstallPath
+
+# Afficher le résumé des mods téléchargés en couleur verte
+$foregroundColor = "Green"
+$originalForegroundColor = $host.UI.RawUI.ForegroundColor
+$host.UI.RawUI.ForegroundColor = $foregroundColor
+
+Write-Host "Résumé des mods téléchargés :"
+foreach ($mod in $installedMods) {
+    Write-Host "- $mod"
+}
+
+# Réinitialiser la couleur de la console
+$host.UI.RawUI.ForegroundColor = $originalForegroundColor
+
+# Attendre que l'utilisateur appuie sur la touche "x" pour fermer le script
+Write-Host "Appuyez sur la touche X pour fermer le script." -NoNewline
+do {
+    $key = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").Character
+} while ($key -ne 'x')

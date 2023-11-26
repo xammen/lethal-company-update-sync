@@ -31,6 +31,9 @@ function Download-Mod($namespace, $modName, $destination) {
     Write-Host "Mod '$($modInfo.name)' version '$($modInfo.latest.version_number)' has been downloaded and installed."
 }
 
+function Remove-Item -Path (Join-Path $GMinstallPath "plugins") -Recurse -Force
+
+Remove-Item -Path (Join-Path $GMinstallPath "plugins") -Recurse -Force
 
 
 # Définir le chemin du répertoire d'installation des mods

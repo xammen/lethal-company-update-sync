@@ -1,7 +1,4 @@
-$installedMods = @()
-
- # Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
-
+# Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
 function Request-Stream($url) {
     $webClient = New-Object System.Net.WebClient
     $webClient.Headers.Add("User-Agent", "PowerShell Mod Downloader")
@@ -31,13 +28,9 @@ function Download-Mod($namespace, $modName, $destination) {
     $downloadUrl = $modInfo.latest.download_url
     $stream = Request-Stream $downloadUrl
     Expand-Stream $stream $destination
-    
-    # Ajouter le nom du mod à la liste des mods installés
-    $installedMods += $modInfo.name
-    
     Write-Host "Mod '$($modInfo.name)' version '$($modInfo.latest.version_number)' has been downloaded and installed."
-    Write-Host "Liste des mods installés: $($installedMods -join ', ')"
 }
+
 
 
 # Définir le chemin du répertoire d'installation des mods
@@ -46,7 +39,7 @@ $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $modInstallPath = $scriptPath
 $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 
-Remove-Item -Path (Join-Path $scriptPath "BepInEx\plugins") -Recurse -Force
+
 # Télécharger et installer GameMaster
 
 # Télécharger et installer More Suits (Assurez-vous de remplacer le nom du namespace et du mod par les bons)

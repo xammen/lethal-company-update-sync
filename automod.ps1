@@ -1,4 +1,7 @@
-﻿# Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
+$installedMods = @()
+
+ # Définir une fonction pour télécharger le contenu d'une URL vers un flux de mémoire
+
 function Request-Stream($url) {
     $webClient = New-Object System.Net.WebClient
     $webClient.Headers.Add("User-Agent", "PowerShell Mod Downloader")
@@ -28,7 +31,12 @@ function Download-Mod($namespace, $modName, $destination) {
     $downloadUrl = $modInfo.latest.download_url
     $stream = Request-Stream $downloadUrl
     Expand-Stream $stream $destination
+    
+    # Ajouter le nom du mod à la liste des mods installés
+    $installedMods += $modInfo.name
+    
     Write-Host "Mod '$($modInfo.name)' version '$($modInfo.latest.version_number)' has been downloaded and installed."
+    Write-Host "Liste des mods installés: $($installedMods -join ', ')"
 }
 
 

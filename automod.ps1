@@ -58,6 +58,7 @@ Download-Mod "Pooble" "LCBetterSaves" "BepInEx\plugins"
 
 Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $modInstallPath
 
+Download-Mod "stormytuna" "KindTeleporters" $modInstallPath
 
 
 #Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath

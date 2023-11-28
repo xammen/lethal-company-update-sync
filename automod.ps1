@@ -56,6 +56,10 @@ Download-Mod "FlipMods" "BetterStamina" $modInstallPath
 
 Download-Mod "Pooble" "LCBetterSaves" "BepInEx\plugins"
 
+Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $modInstallPath
+
+
+
 #Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
 
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath

@@ -29,7 +29,7 @@ function Download-Mod($namespace, $modName, $destination) {
     $stream = Request-Stream $downloadUrl
     Expand-Stream $stream $destination
     Write-Host -NoNewline "Mod '"
-    Write-Host -NoNewline $modInfo.name -ForegroundColor Green
+    Write-Host -NoNewline $modInfo.name -ForegroundColor Blue
     Write-Host -NoNewline "' version '"
     Write-Host -NoNewline $modInfo.latest.version_number -ForegroundColor Yellow
     Write-Host "' has been downloaded and installed."

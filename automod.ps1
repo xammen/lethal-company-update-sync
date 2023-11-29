@@ -70,6 +70,7 @@ Download-Mod "stormytuna" "KindTeleporters" $modInstallPath
 
 Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
 
+Download-Mod "femboytv" "LethalPosters" $modInstallPath
 
 #Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
 

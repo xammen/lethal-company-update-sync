@@ -68,6 +68,8 @@ Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $modInstallPath
 
 Download-Mod "stormytuna" "KindTeleporters" $modInstallPath
 
+Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
+
 
 #Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
 

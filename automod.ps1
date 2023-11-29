@@ -34,7 +34,7 @@ function Download-Mod($namespace, $modName, $destination) {
     Write-Host -NoNewline $modInfo.name -ForegroundColor Blue
     Write-Host -NoNewline "' version '"
     Write-Host -NoNewline $modInfo.latest.version_number -ForegroundColor Yellow
-    Write-Host " a été téléchargé et installé."
+    Write-Host "' has been downloaded and installed."
 }
 
 

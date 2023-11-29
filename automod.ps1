@@ -37,10 +37,6 @@ function Download-Mod($namespace, $modName, $destination) {
     Write-Host "' has been downloaded and installed."
 }
 
-
-
-
-
 # Définir le chemin du répertoire d'installation des mods
 # Définir le chemin du répertoire d'installation des mods en utilisant le répertoire courant
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition

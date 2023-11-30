@@ -50,7 +50,7 @@ $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 # Supposons que les valeurs correctes sont fournies ici pour l'exemple :
 Download-Mod "WholeLottaIdiots" "CartiSuit" $scriptPath
 
-Download-Mod "x753" "More_Suits" "BepInEx\plugins"
+Download-Mod "x753" "More_Suits" $scriptPath
 
 Download-Mod "bizzlemip" "BiggerLobby" $modInstallPath
 

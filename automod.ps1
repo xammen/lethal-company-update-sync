@@ -48,25 +48,25 @@ $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 
 # Télécharger et installer More Suits (Assurez-vous de remplacer le nom du namespace et du mod par les bons)
 # Supposons que les valeurs correctes sont fournies ici pour l'exemple :
-Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath
+Download-Mod "WholeLottaIdiots" "CartiSuit" $GMinstallPath
 
-Download-Mod "x753" "More_Suits" $modInstallPath
+Download-Mod "x753" "More_Suits" $GMinstallPath
 
-Download-Mod "bizzlemip" "BiggerLobby" $modInstallPath 
+Download-Mod "bizzlemip" "BiggerLobby" $GMinstallPath
 
-Download-Mod "2018" "LC_API" $modInstallPath
+Download-Mod "2018" "LC_API" $GMinstallPath
 
-Download-Mod "FlipMods" "BetterStamina" $modInstallPath
+Download-Mod "FlipMods" "BetterStamina" $GMinstallPath
 
-Download-Mod "Pooble" "LCBetterSaves" "BepInEx\plugins"
+Download-Mod "Pooble" "LCBetterSaves" $GMinstallPath
 
-Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $modInstallPath
+Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $GMinstallPath
 
-Download-Mod "stormytuna" "KindTeleporters" $modInstallPath
+Download-Mod "stormytuna" "KindTeleporters" $GMinstallPath
 
-Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
+Download-Mod "FlipMods" "SkipToMultiplayerMenu" $GMinstallPath
 
-Download-Mod "femboytv" "LethalPosters" "BepInEx\plugins"
+Download-Mod "femboytv" "LethalPosters" $GMinstallPath
 
 #Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
 

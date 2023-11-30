@@ -68,9 +68,9 @@ Download-Mod "FlipMods" "SkipToMultiplayerMenu" $GMinstallPath
 
 Download-Mod "femboytv" "LethalPosters" $GMinstallPath
 
-Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
+Download-Mod "FlipMods" "ReservedWalkieSlot" $GMinstallPath
 
-Download-Mod "FlipMods" "ReservedItemSlotCore" $modInstallPath
+Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath
 

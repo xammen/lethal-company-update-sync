@@ -74,6 +74,8 @@ Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 
 Download-Mod "WindSeries" "Non_Officielle_Traduction_FR" $modInstallPath
 
+Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
+
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath
 
 #Download-Mod "tinyhoot" "ShipLobby" "BepInEx"

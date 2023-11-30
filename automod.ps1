@@ -50,11 +50,11 @@ $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 # Supposons que les valeurs correctes sont fournies ici pour l'exemple :
 Download-Mod "WholeLottaIdiots" "CartiSuit" $GMinstallPath
 
-Download-Mod "x753" "More_Suits" $GMinstallPath
+Download-Mod "x753" "More_Suits" $modInstallPath
 
-Download-Mod "bizzlemip" "BiggerLobby" $GMinstallPath
+Download-Mod "bizzlemip" "BiggerLobby" $modInstallPath
 
-Download-Mod "2018" "LC_API" $GMinstallPath
+Download-Mod "2018" "LC_API" $modInstallPath
 
 Download-Mod "FlipMods" "BetterStamina" $GMinstallPath
 
@@ -64,11 +64,11 @@ Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $GMinstallPath
 
 Download-Mod "stormytuna" "KindTeleporters" $GMinstallPath
 
-Download-Mod "FlipMods" "SkipToMultiplayerMenu" $GMinstallPath
+Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
 
 Download-Mod "femboytv" "LethalPosters" $GMinstallPath
 
-Download-Mod "FlipMods" "ReservedWalkieSlot" $GMinstallPath
+Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
 
 Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 

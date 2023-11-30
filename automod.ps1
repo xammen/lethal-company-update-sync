@@ -68,10 +68,6 @@ Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
 
 Download-Mod "femboytv" "LethalPosters" $GMinstallPath
 
-Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
-
-Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
-
 Download-Mod "WindSeries" "Non_Officielle_Traduction_FR" $modInstallPath
 
 Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
@@ -86,4 +82,7 @@ Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
 
 #Download-Mod "FlipMods" "SkipToMultiplayerMenu" $modInstallPath
 
+#Download-Mod "FlipMods" "ReservedWalkieSlot" $modInstallPath
+
+#Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 

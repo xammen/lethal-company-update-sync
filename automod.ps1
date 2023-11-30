@@ -48,9 +48,9 @@ $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 
 # Télécharger et installer More Suits (Assurez-vous de remplacer le nom du namespace et du mod par les bons)
 # Supposons que les valeurs correctes sont fournies ici pour l'exemple :
-Download-Mod "WholeLottaIdiots" "CartiSuit" $scriptPath
-
 Download-Mod "x753" "More_Suits" $scriptPath
+
+Download-Mod "WholeLottaIdiots" "CartiSuit" $scriptPath
 
 Download-Mod "bizzlemip" "BiggerLobby" $modInstallPath
 

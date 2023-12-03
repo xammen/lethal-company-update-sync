@@ -37,6 +37,17 @@ function Download-Mod($namespace, $modName, $destination) {
     Write-Host "' has been downloaded and installed."
 }
 
+function Download-MP3($url, $destination) {
+    $webClient = New-Object System.Net.WebClient
+    $webClient.Headers.Add("User-Agent", "PowerShell MP3 Downloader")
+    $webClient.DownloadFile($url, $destination)
+    Write-Host -NoNewline "MP3 '"
+    Write-Host -NoNewline $url -ForegroundColor Blue
+    Write-Host "' has been downloaded and placed in '"
+    Write-Host -NoNewline $destination -ForegroundColor Yellow
+    Write-Host "'."
+}
+
 # Définir le chemin du répertoire d'installation des mods
 # Définir le chemin du répertoire d'installation des mods en utilisant le répertoire courant
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
@@ -90,3 +101,11 @@ Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 
 #Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 
+# Le chemin du fichier MP3 sur Github
+$mp3Url = "https://github.com/xammen/lethal-company-update-sync/blob/main/voyage.mp3" # Remplacer par l'URL réelle du fichier MP3
+
+# Le chemin de destination du fichier MP3
+$mp3Destination = Join-Path $scriptPath "BepInEx\Custom Songs\voyage.mp3" # Remplacer "somefile.mp3" par le nom réel du fichier.
+
+# Appel à la fonction Download-MP3 pour télécharger et sauvegarder le fichier MP3
+Download-MP3 $mp3Url $mp3Destination

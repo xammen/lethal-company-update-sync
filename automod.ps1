@@ -83,9 +83,11 @@ Download-Mod "WindSeries" "Non_Officielle_Traduction_FR" $modInstallPath
 
 Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
 
-Download-Mod "Steven" "Custom_Boombox_Music" $GMinstallPath
+Download-Mod "KoderTeh" "Boombox_Controller" $GMinstallPath
 
 Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
+
+#Download-Mod "Steven" "Custom_Boombox_Music" $GMinstallPath
 
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath
 
@@ -102,10 +104,10 @@ Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 #Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 
 # Le chemin du fichier MP3 sur Github
-$mp3Url = "https://github.com/xammen/lethal-company-update-sync/raw/main/voyage.mp3" # Remplacer par l'URL réelle du fichier MP3
+#$mp3Url = "https://github.com/xammen/lethal-company-update-sync/raw/main/voyage.mp3" # Remplacer par l'URL réelle du fichier MP3
 
 # Le chemin de destination du fichier MP3
-$mp3Destination = Join-Path $scriptPath "BepInEx\Custom Songs\Boombox Music\voyage.mp3" # Remplacer "somefile.mp3" par le nom réel du fichier.
+#$mp3Destination = Join-Path $scriptPath "BepInEx\Custom Songs\Boombox Music\voyage.mp3" # Remplacer "somefile.mp3" par le nom réel du fichier.
 
 # Appel à la fonction Download-MP3 pour télécharger et sauvegarder le fichier MP3
-Download-MP3 $mp3Url $mp3Destination
+#Download-MP3 $mp3Url $mp3Destination

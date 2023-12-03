@@ -72,7 +72,7 @@ Download-Mod "WindSeries" "Non_Officielle_Traduction_FR" $modInstallPath
 
 Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
 
-Download-Mod "Steven" "Custom_Boombox_Music" $modInstallPath
+Download-Mod "Steven" "Custom_Boombox_Music" $GMinstallPath
 
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath
 

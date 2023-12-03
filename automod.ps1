@@ -105,7 +105,7 @@ Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 $mp3Url = "https://github.com/xammen/lethal-company-update-sync/blob/main/voyage.mp3" # Remplacer par l'URL réelle du fichier MP3
 
 # Le chemin de destination du fichier MP3
-$mp3Destination = Join-Path $scriptPath "BepInEx\Custom Songs\voyage.mp3" # Remplacer "somefile.mp3" par le nom réel du fichier.
+$mp3Destination = Join-Path $scriptPath "BepInEx\Custom Songs\Boombox Music\voyage.mp3" # Remplacer "somefile.mp3" par le nom réel du fichier.
 
 # Appel à la fonction Download-MP3 pour télécharger et sauvegarder le fichier MP3
 Download-MP3 $mp3Url $mp3Destination

@@ -74,6 +74,8 @@ Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
 
 Download-Mod "Steven" "Custom_Boombox_Music" $GMinstallPath
 
+Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
+
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath
 
 #Download-Mod "tinyhoot" "ShipLobby" "BepInEx"

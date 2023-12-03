@@ -102,7 +102,7 @@ Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 #Download-Mod "FlipMods" "ReservedItemSlotCore" $GMinstallPath
 
 # Le chemin du fichier MP3 sur Github
-$mp3Url = "https://github.com/xammen/lethal-company-update-sync/blob/main/voyage.mp3" # Remplacer par l'URL réelle du fichier MP3
+$mp3Url = "https://github.com/xammen/lethal-company-update-sync/raw/main/voyage.mp3" # Remplacer par l'URL réelle du fichier MP3
 
 # Le chemin de destination du fichier MP3
 $mp3Destination = Join-Path $scriptPath "BepInEx\Custom Songs\Boombox Music\voyage.mp3" # Remplacer "somefile.mp3" par le nom réel du fichier.

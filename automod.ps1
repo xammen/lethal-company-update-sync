@@ -59,9 +59,9 @@ $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 
 # Télécharger et installer More Suits (Assurez-vous de remplacer le nom du namespace et du mod par les bons)
 # Supposons que les valeurs correctes sont fournies ici pour l'exemple :
-Download-Mod "x753" "More_Suits" $modInstallPath
+##Download-Mod "x753" "More_Suits" $modInstallPath
 
-Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath
+##Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath
 
 Download-Mod "bizzlemip" "BiggerLobby" $modInstallPath
 
@@ -71,7 +71,7 @@ Download-Mod "FlipMods" "BetterStamina" $GMinstallPath
 
 Download-Mod "Pooble" "LCBetterSaves" $GMinstallPath
 
-Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $GMinstallPath
+##Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $GMinstallPath
 
 Download-Mod "stormytuna" "KindTeleporters" $GMinstallPath
 
@@ -85,13 +85,19 @@ Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
 
 Download-Mod "KoderTeh" "Boombox_Controller" $GMinstallPath
 
-Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
+Download-Mod "CYW" "DevysOQLMod" $GMinstallPath
+
+Download-Mod "Rattenbonkers" "Teleporter_Cooldown_Reset" $GMinstallPath
+
+Download-Mod "Sligili" "More_Emotes" $GMinstallPath
+
+Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
+
+##Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 
 #Download-Mod "Steven" "Custom_Boombox_Music" $GMinstallPath
 
 #Download-Mod "5Bit" "FPSSpectate" $modInstallPath
-
-#Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
 
 #Download-Mod "oknorton" "LethalCompanyBetterScaling" "BepInEx\plugins"
 

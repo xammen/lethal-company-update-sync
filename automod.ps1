@@ -83,13 +83,13 @@ Download-Mod "WindSeries" "Non_Officielle_Traduction_FR" $modInstallPath
 
 Download-Mod "RickArg" "Helmet_Cameras" $modInstallPath
 
-Download-Mod "KoderTeh" "Boombox_Controller" $GMinstallPath
+Download-Mod "KoderTeh" "Boombox_Controller" $modInstallPath
 
-Download-Mod "CYW" "DevysOQLMod" $GMinstallPath
+Download-Mod "CYW" "DevysOQLMod" $modInstallPath
 
 Download-Mod "Rattenbonkers" "Teleporter_Cooldown_Reset" $GMinstallPath
 
-Download-Mod "Sligili" "More_Emotes" $GMinstallPath
+Download-Mod "Sligili" "More_Emotes" $modInstallPath
 
 Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
 

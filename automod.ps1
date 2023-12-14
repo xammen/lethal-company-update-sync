@@ -100,6 +100,8 @@ Download-Mod "Sligili" "More_Emotes" $modInstallPath
 
 Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
 
+Download-Mod "x753" "Mimics" "BepInEx"
+
 ##Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 
 #Download-Mod "Steven" "Custom_Boombox_Music" $GMinstallPath

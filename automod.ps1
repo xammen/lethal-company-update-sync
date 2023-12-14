@@ -60,17 +60,13 @@ $GMinstallPath = Join-Path $scriptPath "BepInEx\plugins"
 # Télécharger et installer More Suits (Assurez-vous de remplacer le nom du namespace et du mod par les bons)
 # Supposons que les valeurs correctes sont fournies ici pour l'exemple :
 
-Download-Mod "x753" "More_Suits" $modInstallPath
-
-Download-Mod "Verity" "TooManySuits" "BepInEx"
-
-Download-Mod "Aeclipse" "EEM_SKINS" "BepInEx"
-
-##Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath
+Download-Mod "2018" "LC_API" $modInstallPath
 
 Download-Mod "bizzlemip" "BiggerLobby" $modInstallPath
 
-Download-Mod "2018" "LC_API" $modInstallPath
+Download-Mod "x753" "More_Suits" $modInstallPath
+
+Download-Mod "Verity" "TooManySuits" "BepInEx"
 
 Download-Mod "FlipMods" "BetterStamina" $GMinstallPath
 
@@ -101,6 +97,12 @@ Download-Mod "Sligili" "More_Emotes" $modInstallPath
 Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
 
 Download-Mod "x753" "Mimics" "BepInEx"
+
+Download-Mod "Sligili" "HDLethalCompany" $scriptPath
+
+##Download-Mod "Aeclipse" "EEM_SKINS" "BepInEx"
+
+##Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath
 
 ##Download-Mod "GameMasterDevs" "GameMaster" $GMinstallPath
 

@@ -100,6 +100,8 @@ Download-Mod "x753" "Mimics" $scriptPath
 
 Download-Mod "Sligili" "HDLethalCompany" $scriptPath
 
+Download-Mod "QuokkaCrew" "MoreMonsters" $GMinstallPath
+
 ##Download-Mod "Aeclipse" "EEM_SKINS" "BepInEx"
 
 ##Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath

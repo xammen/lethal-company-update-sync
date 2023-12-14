@@ -76,6 +76,8 @@ Download-Mod "FlipMods" "BetterStamina" $GMinstallPath
 
 Download-Mod "Pooble" "LCBetterSaves" $GMinstallPath
 
+Download-Mod "RugbugRedfern" "Skinwalkers" $scriptPath
+
 ##Download-Mod "Suskitech" "AlwaysHearActiveWalkies" $GMinstallPath
 
 Download-Mod "stormytuna" "KindTeleporters" $GMinstallPath

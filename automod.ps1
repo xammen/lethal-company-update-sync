@@ -96,7 +96,7 @@ Download-Mod "Sligili" "More_Emotes" $modInstallPath
 
 Download-Mod "tinyhoot" "ShipLobby" "BepInEx"
 
-Download-Mod "x753" "Mimics" "BepInEx"
+Download-Mod "x753" "Mimics" $modInstallPath
 
 Download-Mod "Sligili" "HDLethalCompany" $scriptPath
 

@@ -108,6 +108,10 @@ Download-Mod "berrycatblue" "Cats_Custom_Suits" $scriptPath
 
 Download-Mod "Park" "Park_Suits" $scriptPath
 
+Download-Mod "ViViKo" "MoreMaterials" $scriptPath
+
+Download-Mod "ViViKo" "AnimatedSuits" $scriptPath
+
 ##Download-Mod "Aeclipse" "EEM_SKINS" "BepInEx"
 
 ##Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath

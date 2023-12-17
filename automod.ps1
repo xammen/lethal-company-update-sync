@@ -102,6 +102,12 @@ Download-Mod "Sligili" "HDLethalCompany" $scriptPath
 
 Download-Mod "QuokkaCrew" "MoreMonsters" $GMinstallPath
 
+Download-Mod "OnePeak" "Low_Budget_One_Piece_suits" $scriptPath
+
+Download-Mod "berrycatblue" "Cats_Custom_Suits" $scriptPath
+
+Download-Mod "Park" "Park_Suits" $scriptPath
+
 ##Download-Mod "Aeclipse" "EEM_SKINS" "BepInEx"
 
 ##Download-Mod "WholeLottaIdiots" "CartiSuit" $modInstallPath

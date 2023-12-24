@@ -1,1 +1,2 @@
 C:/Users/nmx/AppData/Local/Temp/6e60206e-8f8c-4b3f-931d-eb5e5d333540/BepinEx.zip filter=lfs diff=lfs merge=lfs -text
+LogOutput.log filter=lfs diff=lfs merge=lfs -text

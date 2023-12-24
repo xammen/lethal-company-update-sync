@@ -1,0 +1,73 @@
+r:"^v([0-9]+)$"=v$1
+LAUNCH MODE=MODE DE LANCEMENT
+(Recommended)=  (Recommandé)
+> LAN=> LAN
+> Online=> En ligne
+  LAN=  LAN
+  Online=  En ligne
+> Quit=> Quitter
+> Settings=> Paramètres
+> Credits=> Auteurs\n<color\=#CECECE><size\=10>    Traduit par <color\=#269600>WindSeries AxellSimp Kaizen</color></size></color>
+> Host=> Héberger
+Adjust screen brightness until the symbol on the right is barely visible.=Réglez la luminosité de l'écran jusqu'à ce que le symbole de droite soit à peine visible.
+> Join LAN session=> Rejoindre une session LAN
+(Launched in LAN mode)=(Lancé en mode LAN)
+
+[ Confirm ]=[Confirmer]
+  CONFIRM=   CONFIRMER
+> Resume=> Reprendre
+> Invite friends=> Inviter des amis
+Would you like to leave the game?=Voulez-vous quitter le jeu ?
+> Confirm=> Confirmer
+> Cancel=> Annuler
+[ Back ]=[Retour]
+Go back=Retour
+> Back=> Retour
+Cancel=Annuler
+
+Friends-only=Amis uniquement
+PRIVATE means you must send invites through Steam for players to join.=AMIS UNIQUEMENT signifie que vous devez envoyer des invitations via Steam pour que les joueurs vous rejoignent.
+PRIVATE means you must send invites through Steam for players to join.=PRIVÉ signifie que vous devez envoyer des invitations via Steam pour que les joueurs vous rejoignent.
+PUBLIC means your game will be visible on the server list for all to see.=PUBLIC signifie que votre partie sera visible sur la liste des serveurs.
+Public=Public
+> Join a crew=> Rejoindre un équipage
+CREW:=ÉQUIPAGE:
+
+Server name:=Nom du serveur:
+Save File=Enregistrer le fichier
+Delete=Supprimer
+Waiting for crew... =En attente des joueurs...
+Started server, joining...=Démarrage du serveur, en train de rejoindre...
+Loading...=Chargement..
+Max players...=Joueurs maximum...
+
+r:"^File ([0-9]+)$"=Fichier $1
+r:"^(\$[0-9]+)\\nDays: ([0-9]+)$"=$1\nJours: $2
+
+Credits=Auteurs
+Sort: worldwide=Tri: MONDIAL
+Sort: near=Tri: Au plus proche
+Sort: far=Tri: Au plus loin
+[ Refresh ]=<size\=16>[Rafraîchir]</size>
+> Back to menu=> Retour au menu
+Servers=Serveurs
+Join=<size\=14>Rejoindre</size>
+
+r:"^Do you want to delete File ([0-9])\?$"=Voulez-vous supprimer le fichier $1?
+
+Discard=Annuler
+DISCARD=Annuler
+Discard changes=Rejeter les changements
+Unconfirmed changes!=                      Changements non confirmés!
+Confirm changes?=Confirmer les changements ?
+Confirm=Confirmer
+
+Error! Could not get the lobby data. Are you offline?=Erreur!\nImpossible d'obtenir les données de la partie.\nÊtes-vous hors ligne?
+
+
+#V45----------------------------------------------------------------------------------------------------------------
+
+Welcome! Version 45 is out now.\nOthers must update their game to play with you on this version.\n\n\nGood luck!=Bienvenue ! La version 45 est maintenant disponible.\nLes autres doivent mettre à jour leur jeu pour pouvoir jouer avec vous sur cette version.\nBonne chance!
+Version 45 is out!=La version 45 est sortie!
+[ Continue ]=[Continuer]
+Player #=Joueur #

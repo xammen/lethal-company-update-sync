@@ -1,0 +1,9 @@
+Sneakers=Baskets
+Blep2=Blep2
+Crazydude12=Foldude12
+TOTAL: [to]=Total: [to]
+Bubblegum=Bubblegum
+Z=Z
+X=X
+Notes: \n=Notes:* \n
+Quota=Quota

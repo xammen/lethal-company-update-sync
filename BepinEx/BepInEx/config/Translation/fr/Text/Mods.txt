@@ -1,0 +1,36 @@
+v40\nMOD=v40\nMod
+v45\nMOD=v45\nMod
+> Mods=> Mods
+Installed Mods=Mods installés
+Mod List:=Liste des mods:
+Check the logs for more detailed results.\n<size\=13>(Note that if someone doesnt show up on the list, they may not have LC_API installed)</size>=Verifiez les journaux pour des resultats plus detailles.\n<size\=12>(Notez que si quelqu'un n'apparait pas sur la liste, il peut ne pas avoir installe LC_API)</size>
+Asking all other players for installed mods..=Demander a tous les autres joueurs les mods installes
+
+
+#MoreCompany By notnotnotswipez----------------------------------------------------------------------------------------------------------------------------------
+Crew Size:=Taille de l'équipage
+v45 (MC)=V45 (MC)
+Cosmetics Enabled:=Cosmétiques activés:
+
+#ReservedWalkieSlot by FlipMods----------------------------------------------------------------------------------------------------------------------------------
+Hold: [Alt]=<size\=6>Maintenir [ALT]</size>
+
+#More Suits By x753----------------------------------------------------------------------------------------------------------------------------------
+Change: Glow=Modifier: Glow
+Change: Kirby=Modifier: Kirby
+Change: Knuckles=Modifier: Knuckles
+Change: Luigi=Modifier: Luigi
+Change: Mario=Modifier: Mario
+Change: Minion=Modifier: Minion
+Change: Skeleton=Modifier: Squelette
+Change: Slayer=Modifier: Tueur
+Change: Smile=Modifier: Smile
+
+#Fashion Company By Dwarggo----------------------------------------------------------------------------------------------------------------------------------
+Change: Workout=Modifier: Entraîneur
+Change: Dog=Modifier: Chien
+Change: Arctic=Modifier: Arctique
+Change: Elite=Modifier: Élite
+Change: Highclass=Modifier: Grande classe
+Change: Speedster=Modifier: Chauffeur
+

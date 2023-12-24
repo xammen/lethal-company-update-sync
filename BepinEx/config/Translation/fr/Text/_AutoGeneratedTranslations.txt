@@ -1,3 +1,0 @@
-Items missed!=Articles manqués!
-HALT!=ARRÊT!
-

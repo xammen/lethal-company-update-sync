@@ -1,0 +1,97 @@
+ENABLED=ACTIVÉ
+DISABLED=DÉSACTIVÉ
+r:"^(\d|\d{2}|\d{3}) FPS$"=$1 FPS
+
+DISPLAY=AFFICHAGE
+Display mode:=Mode d'affichage:
+Fullscreen=Plein écran
+Windowed fullscreen=Plein écran fenêtré
+Maximized window=Fenêtre maximisée
+Window=Fenêtré
+Gamma/Brightness:=Gamma/Luminosité:
+Frame rate cap:=Limitation de la fréquence d'images:
+Use monitor (V-Sync)=Utiliser V-Sync
+Uncapped=Illimité
+
+CONTROLS=CONTRÔLES
+Look sensitivity:=Sensibilité:
+Invert Y-Axis=Inverser l'axe Y
+
+r:"^Current input device: \\n ([\s\S]*)$"=Microphone actuel: \n $1
+Master volume:=Volume principal:
+MODE: Push to talk=MODE: Appuyer pour parler
+Push to talk:=Appuyer pour parler:
+MODE: Voice activation=MODE: Activation de la voix
+Voice activation=Activation de la voix
+
+> Reset all to default=> Réinitialiser
+> Confirm changes=> Confirmer les changements
+> Back=> Retour
+BACK=> RETOUR
+Back=Retour
+
+#AJOUTS V45
+ACCESSIBILITY=ACCESSIBILITÉ
+Arachnophobia Mode=Mode Arachnophobie
+BACK=> RETOUR
+Back=Retour
+
+REMAP CONTROLS=CONTRÔLES
+Walk forward=Avancer
+Walk back=Reculer
+Walk left=Gauche
+Walk right=Droite
+Interact=Interagir
+Ping scan=Scan
+Item primary use=Utilisation principale
+Item Secondary use=Utilisation secondaire
+Item Tertiary use=Utilisation tertiaire
+Item secondary use=Utilisation secondaire
+Item tertiary use=Utilisation tertiaire
+Item inspect=Inspecter
+Replace furniture=Déplacer un meuble
+Store furniture=Stocker un meuble
+Dance=Danser
+Point=Pointer du doigt
+Crouch=S'accroupir
+Jump=Sauter
+Item drop=Jeter un objet
+Enable chat=Activer le chat
+Submit chat=Envoyer un chat
+Item switch left=Objet précédent
+Item switch right=Objet suivant
+> Change keybinds=> Modifier les touches
+Space=Espace
+Shift=Shift
+Control=Ctrl
+Right Button=Bouton droite
+Left Button=Bouton gauche
+Scroll/Down=Défiler vers le bas
+Scroll/Up=Défiler vers le haut
+
+REBIND CONTROLLERS=<size\=30>TOUCHES DE LA MANETTE</size>
+Move forward=Avancer
+Move backward=Reculer
+Move left=Gauche
+Move right=Droite
+Right Stick Press=R
+Left Stick Press=L
+Right Shoulder=RT
+Right Trigger=RB
+Left Shoulder=LT
+Left Trigger=LB
+Button East=B
+Button West=X
+Button South=A
+Button North=Y
+D-Pad/Down=D-Pad  BAS
+D-Pad/Up=D-Pad  HAUT
+D-Pad/Right=D-pad  DROITE
+D-Pad/Left=D-pad  GAUCHE
+Left Stick/Up= L      HAUT
+Left Stick/Down= L      BAS
+Left Stick/Left= L      GAUCHE
+Left Stick/Right= L     DROITE
+Turn furniture=Tourner les meubles
+> Set to defaults=> Régler les valeurs par défaut
+Voice Volume=Volume vocal

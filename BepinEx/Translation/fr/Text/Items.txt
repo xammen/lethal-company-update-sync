@@ -1,0 +1,281 @@
+Item collected!=Objet récupéré!
+Item stored!=Objet stocké!
+Apparatus collected!=Appareils collectés!
+
+Big bolt=Gros boulon
+Drop Big bolt : [G]=Déposer Gros boulon [G]
+Big bolt collected!=Gros boulon récupéré!
+
+Drop Brass bell : [G]=Déposer Cloche en laiton [G]
+Brass bell=Cloche en laiton
+Brass bell collected!=Cloche en laiton récupéré!
+
+Drop Brush : [G]=Déposer Brosse [G]
+Brush collected!=Brosse récupéré!
+Brush=Brosse
+
+Drop Sticky note : [G]=Déposer Note autocollante [G]
+Sticky note=Note autocollante
+
+Candy=Bonbon
+Drop Candy : [G]=Déposer Bonbon [G]
+Candy collected!=Bonbon récupéré!
+
+Clown horn=Klaxon de clown
+Drop Clown horn : [G]=Déposer Klaxon de clown [G]
+Clown horn collected!=Klaxon de clown récupéré!
+
+Coffee mug=Tasse à café
+Drop Coffee mug : [G]=Déposer Tasse à café [G] 
+Coffee mug collected!=Tasse à café récupéré!
+
+Cookie mold pan=Moule à biscuits
+Drop Cookie mold pan : [G]=Déposer Moule à biscuits [G]
+Cookie mold pan collected!=Moule à biscuits récupéré!
+
+Dust pan=Pelle a poussiere
+Drop Dust pan : [G]=Déposer Pelle à poussière [G]
+Dust pan collected!=Pelle à poussière récupéré!
+
+Egg beater=Batteur à œufs
+Drop Egg beater : [G]=Déposer Batteur à œufs [G]
+Egg beater collected!=Batteur à œufs récupéré!
+
+Golden cup=Coupe dorée
+Drop Golden cup : [G]=Déposer Coupe dorée [G]
+Golden cup collected!=Coupe dorée récupéré!
+
+Hair brush=Brosse à cheveux
+Drop Hair brush : [G]=Déposer Brosse à cheveux [G]
+Hair brush collected!=Brosse à cheveux récupéré!
+
+Jar of pickles=Bocal de cornichons
+Drop Jar of pickles : [G]=Déposer Bocal de cornichons [G]
+Jar of pickles collected!=Bocal de cornichons récupéré!
+
+Key=Clé
+Use key: [ LMB ]=Utiliser Clé [LMB]
+Use key : [LMB]=Utiliser Clé [LMB]
+Utiliser Clé [E]=Utiliser Clé [LMB]
+Drop Key : [G]=Déposer Clé [G]
+
+Laser pointer=Pointeur laser
+Drop Laser pointer : [G]=Déposer Pointeur laser [G]
+Laser pointer collected!=Pointeur laser récupéré!
+
+Magnifying glass=Loupe
+Drop Magnifying glass : [G]=Déposer Loupe [G]
+Magnifying glass collected!=Loupe récupéré!
+
+Old phone=Old phone=Vieux téléphone 
+Drop Old phone : [G]=Déposer Vieux téléphone: [G]
+Old phone collected!=Vieux téléphone récupéré!
+
+Perfume bottle=Flacon de parfum
+Drop Perfume bottle : [G]=Déposer Flacon de parfum [G]
+Perfume bottle collected!=Flacon de parfum récupéré!
+
+Pill bottle=Flacon de pilules
+Drop Pill bottle : [G]=Déposer Flacon de pilules [G]
+Pill bottle collected!=Flacon de pilules récupéré!
+
+Plastic fish=Poisson en plastique
+Drop Plastic fish : [G]=Déposer Poisson en plastique [G]
+Plastic fish collected!=Poisson en plastique récupéré!
+
+Cash register=Caisse enregistreuse
+Drop Cash register : [G]=Déposer Caisse enregistreuse [G]
+Use Cash register : [LMB]=Utiliser Caisse enregistreuse [LMB]
+
+Red soda=Canette de soda
+Drop Red soda : [G]=Déposer Canette de soda [G]
+Red soda collected!=Canette de soda récupéré!
+
+Ring bell: [E]=Sonnerie de cloche
+
+Robot Toy=Jouet robot
+Drop Robot Toy : [G]=Jouet robot [G]
+Toy robot collected!=Jouet robot récupéré!
+
+Steering wheel=Volant
+Drop Steering wheel : [G]=Déposer Volant [G]
+Steering wheel collected!=Volant récupéré!
+
+Stop sign=Panneau stop
+Drop Stop sign : [G]=Déposer Panneau stop [G]
+Stop sign collected!=Panneau stop récupéré!
+
+Tattered metal sheet=Tôle en lambeaux
+Drop Tattered metal sheet : [G]=Déposer Tôle en lambeaux [G]
+Tattered metal sheet collected!=Tôle en lambeaux récupéré!
+
+Metal sheet=Tôle
+Drop Metal sheet : [G]=Déposer Tôle [G]
+Metal sheet collected!=Tôle récupéré!
+
+Tea Kettle=Bouilloire à thé
+Drop Tea kettle : [G]=Déposer Bouilloire à thé [G]
+Tea kettle collected!=Bouilloire à thé récupéré!
+
+Teeth=Dents
+Drop Teeth : [G]=Déposer Dents [G]
+Teeth collected!=Dents récupéré!
+
+Toothpaste=Dentifrice
+Drop Toothpaste : [G]=Déposer Dentifrice [G]
+Toothpaste collected!=Dentifrice récupéré!
+
+Toy cube=Rubik's cube
+Drop Toy cube : [G]=Déposer Rubik's cube [G]
+Toy cube collected!=Rubik's cube récupéré!
+
+Yield sign=Panneau cédez-le-passage
+Drop Yield sign : [G]=Déposer Panneau cédez-le-passage [G]
+Yield sign collected!=Panneau cédez-le-passage récupéré!
+
+Wedding ring=Anneau de mariage
+Drop Wedding ring : [G]=Déposer Anneau de mariage [G]
+Wedding ring collected!=Anneau de mariage récupéré!
+
+Apparatice=Appareils
+Drop Apparatus : [G]=Déposer Appareils [G]
+Apparatus collected!=Appareils récupéré!
+
+Bee hive=Rûche d'abeilles
+Drop Bee hive : [G]=Déposer Rûche d'abeilles [G]
+Bee hive collected!=Rûche d'abeilles récupéré!
+Hive collected!=Rûche récupéré!
+Drop Hive : [G]=Déposer Rûche [G]
+
+Mug=Tasse
+Drop Mug : [G]=Déposer Tasse [G]
+Mug collected!=Tasse récupéré!
+
+Bottles=Bouteilles
+Drop Bottles : [G]=Déposer Bouteilles [G]
+Bottles collected!=Bouteilles récupéré!
+
+Cash register=Caisse enregistreuse
+Use cash register : [LMB]=Utiliser Caisse enregistreuse [LMB]
+Drop Cash register : [G]=Déposer Caisse enregistreuse [G]
+Cash register collected!=Caisse enregistreuse récupéré!
+
+Chemical jug=Pichet chimique
+Drop Chemical jug : [G]=Déposer Pichet chimique [G]
+Chemical jug collected!=Pichet chimique récupéré!
+
+Ring=Anneau
+Ring collected!=Anneau récupéré!
+
+Rubber Ducky=Canard en caoutchouc
+Drop Rubber Ducky : [G]=Déposer Canard en caoutchouc [G]
+Rubber Ducky collected!=Canard en caoutchouc récupéré!
+
+Fancy lamp=Lampe fantaisiste
+Drop Fancy lamp : [G]=Déposer Lampe fantaisiste [G]
+Fancy lamp collected!=Lampe fantaisiste récupéré!
+
+Large axle=Grand axe
+Drop Large axle : [G]=Déposer Grand axe [G]
+Large axle collected!=Grand axe récupéré!
+
+Painting=Peinture
+Drop Painting : [G]=Déposer Peinture [G]
+Painting collected!=Peinture récupéré!
+
+V-type engine=Moteur en V
+Drop V-type engine : [G]=Déposer Moteur en V [G]
+V-type engine collected!=Moteur en V récupéré!
+
+Body=Corps
+Drop Body : [G]=Déposer Corps : [G]
+Body collected!=Corps récupéré!
+
+Airhorn=Cornet d'air
+Use airhorn : [LMB]=Utiliser Cornet d'air [LMB]
+Drop Airhorn : [G]=Déposer Cornet d'air [G]
+Airhorn collected!=Cornet d'air récupéré!
+
+Gold Bar=Lingot d'or
+Drop Gold bar : [G]=Déposer Lingot d'or [G]
+Gold bar collected!=Lingot d'or récupéré!
+
+Toggle light : [LMB][F]=Allumer la lampe [LMB][F]
+Drop Flashlight : [G]=Déposer Lampe de poche [G]
+Drop Pro-flashlight : [G]=Déposer Pro-Lampe torche [G]
+
+Drop Walkie-talkie : [G]=Déposer Talkie-Walkie [G]
+Power button : [Q]=Bouton marche/arrêt [A]
+Send voice : [LMB]=Parler [LMB]
+
+Scan for threat: [LMB]=Recherche de menaces [LMB]
+Drop Zap gun : [G]=Déposer Zap Gun [G]
+
+Drop clipboard : [G]=Déposer Presse-papiers [G]
+Inspect: [Z]=Inspecter [W]
+Turn page : [Q/E]=Tourner la page [A/E]
+
+Remote collected!=Télécommande récupéré!
+Remote=Télécommande
+
+
+Swing sign : [LMB]=Coup de panneau [LMB]
+
+Pop up ladder : [LMB]=Échelle escamotable [LMB]
+Drop Extension ladder : [G]=Déposer Échelle escamotable [G]
+
+Turn on booster : [LMB]=Allumer le booster [LMB]
+Drop Radar-booster : [G]=Déposer Booster-radar [G]
+
+Take TZP : [LMB]=Prendre TZP [LMB]
+Drop TZP-Inhalant : [G]=Déposer TZP-Inhalant [G]
+
+Swing shovel : [LMB]=Coup de pelle [LMB]
+Drop Shovel : [G]=Déposer Pelle [G]
+
+Use jetpack : [LMB]=Utiliser le jetpack [LMB]
+Drop Jetpack : [G]=Déposer Jetpack [G]
+
+Drop Boombox : [G]=Déposer Boombox [G]
+Toggle music : [LMB]=Bascule la musique [LMB]
+
+Drop Lockpicker : [G]=Déposer Lockpicker [G]
+Place on door : [LMB]=Placer sur la porte [LMB]
+
+Drop Stun grenade : [G]=Déposer Grenade paralysante [G]
+Use grenade : [LMB]=Utiliser Grenade [LMB]
+Throw grenade: [LMB]=Lancer Grenade [LMB]
+
+Found journal entry: 'Screams - Sep 13'=Entrée du journal trouvé: «Screams - 13 Septembre»
+
+
+
+#V45----------------------------------------------------------------------------------------------------------------
+
+Flask=Flacon d'alchimie
+Drop Flask : [G]=Déposer Flacon d'alchimie [G]
+Flask collected!=Flacon d'alchimie récupéré!
+
+Spray paint=Bombe de peinture
+Spray : [LMB]=Pulvériser [LMB]
+Shake can : [Q]=Secouer [Q]
+Drop Spray paint : [G]=Déposer Bombe de peinture [G]
+
+Gift box=Cadeau
+Open gift : [LMB]=Ouvrir Cadeau [LMB]
+Drop Gift : [G]=Déposer Cadeau [G]
+Gift collected!=Cadeau collecté!
+
+Landmine=Mine
+
+Whoopie cushion=Coussin péteur
+Drop Whoopie cushion : [G]=Déposer Coussin péteur [G]
+Whoopie cushion collected!=Coussin péteur récupéré!
+
+Homemade flashbang=Flashbang artisanal
+Drop Homemade flashbang : [G]=Déposer Flashbang artisanal [G]
+Homemade flashbang collected!=Flashbang artisanal collecté!
+
+Use DIY-Flashbang : [LMB]=Utiliser DIY-FLASHBANG [LMB]
+
+Circuit bees=Abeilles Électroniques
